@@ -1,0 +1,10 @@
+.brand{
+    color: linear-gradient(#260242, #4d0485) !important;
+}
+
+.logout{
+    color: darkred !important;
+}
+.logout:hover{
+    color: darkred !important;
+}
