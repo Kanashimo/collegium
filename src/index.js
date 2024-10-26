@@ -6,24 +6,7 @@ app.set('view engine', 'ejs')
 app.use(express.static('public'))
 
 app.get('/', (req, res) => {
-    //res.render('index')
-    res.redirect('test')
-})
-
-app.get('/login', (req, res) => {
-    res.render('login')
-})
-
-app.get('/user', (req, res) => {
-    res.redirect('/user/home')
-})
-
-app.get('/user/home', (req, res) => {
-    res.render('user/home')
-})
-
-app.get('/test', (req, res) => {
-    res.render('test')
+    res.render('index')
 })
 
 // app.get('/', (req, res) => {
